@@ -1,3 +1,5 @@
+print("Welcome to Calculator")
+
 first_number: int = int(input("Enter First number: "))
 second_number: int = int(input("Enter Second number: "))
 
