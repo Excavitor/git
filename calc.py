@@ -16,7 +16,10 @@ def multiply(first_number, second_number):
     return first_number * second_number
 
 def division(first_number, second_number):
-    return first_number / second_number
+    if first_number > second_number:
+        return first_number / second_number
+    else:
+        return second_number / first_number
 
 sum_result = sum(first_number, second_number)
 subtraction_result = subtraction(first_number, second_number)
