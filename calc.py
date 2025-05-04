@@ -4,7 +4,7 @@ first_number: int = int(input("Enter First number: "))
 second_number: int = int(input("Enter Second number: "))
 
 def sum(first_number, second_number):
-    return first_number + second_number
+    return f"Sum = {first_number + second_number}"
 
 def subtraction(first_number, second_number):
     if first_number > second_number:
