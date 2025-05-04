@@ -4,6 +4,7 @@ first_number: int = int(input("Enter First number: "))
 second_number: int = int(input("Enter Second number: "))
 
 def sum(first_number, second_number):
+    """ This function calculates the sum of two numbers """
     return f"Sum = {first_number + second_number}"
 
 def subtraction(first_number, second_number):
