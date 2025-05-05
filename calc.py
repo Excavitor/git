@@ -15,6 +15,7 @@ def subtraction(first_number, second_number):
         return second_number - first_number
 
 def multiply(first_number, second_number):
+    """ This function calculates the multiplication of two numbers """
     return first_number * second_number
 
 def division(first_number, second_number):
