@@ -8,6 +8,7 @@ def sum(first_number, second_number):
     return f"Sum = {first_number + second_number}"
 
 def subtraction(first_number, second_number):
+    """ This function calculates the subtraction of two numbers """
     if first_number > second_number:
         return first_number - second_number
     else:
