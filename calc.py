@@ -8,12 +8,14 @@ def sum(first_number, second_number):
     return f"Sum = {first_number + second_number}"
 
 def subtraction(first_number, second_number):
+    """ This function calculates the subtraction of two numbers """
     if first_number > second_number:
         return first_number - second_number
     else:
         return second_number - first_number
 
 def multiply(first_number, second_number):
+    """ This function calculates the multiplication of two numbers """
     return first_number * second_number
 
 def division(first_number, second_number):
